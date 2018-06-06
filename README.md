@@ -13,3 +13,7 @@ The project makes use of standard LaTeX components as well as the `pgfornament` 
 3. I found that the pages of the output `booklet.pdf` were still oriented in a portrait orientation, so I used Apple Preview to rotate the pages. There may likely be a programmatic way to address that issue, but I never bothered to resolve it. 
 
 Feel free to fork as needed or open an issue if something is wrong.
+
+![Page 1 of final output](screenshot1.png)
+
+![Page 2 of final output](screenshot2.png)
