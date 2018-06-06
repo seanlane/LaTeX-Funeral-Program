@@ -12,7 +12,7 @@ The project makes use of standard LaTeX components as well as the `pgfornament` 
 2. Use the `Makefile` default command to make the main file, which will produce 4 pages on the size of paper specified in `main.tex` and then take those four pages and place them on both sides of US letter paper as described by `booklet.tex`.
 3. I found that the pages of the output `booklet.pdf` were still oriented in a portrait orientation, so I used Apple Preview to rotate the pages. There may likely be a programmatic way to address that issue, but I never bothered to resolve it. 
 
-Feel free to fork as needed or open an issue if something is wrong.
+Feel free to fork as needed or open an issue if something is wrong. Below are some screenshots of the final output, and you can take a look at my awesome Grandma Arlene :)
 
 ![Page 1 of final output](screenshot1.png)
 
