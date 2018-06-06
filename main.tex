@@ -1,0 +1,207 @@
+\documentclass[12pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage{ebgaramond}
+\usepackage[export]{adjustbox}
+\usepackage{eso-pic, graphicx}
+\usepackage[margin=0.5in]{geometry}
+\geometry{
+  paperheight=8.5in,
+  paperwidth=5.5in,
+  heightrounded,
+}
+\usepackage{setspace}
+
+\usepackage{pgfornament}
+
+\usepackage{subcaption}
+
+\usepackage{verse}
+\newcommand{\attrib}[1]{%
+\nopagebreak{\raggedleft\footnotesize #1\par}}
+\renewcommand{\poemtitlefont}{\normalfont\large\itshape\centering}
+
+\pagenumbering{gobble}
+\setlength\parindent{0pt}
+
+\newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
+ \put(\LenToUnit{\paperwidth},\LenToUnit{0\paperheight}){#1}%
+ }}%
+\newcommand\AtPageLowerRight[1]{\AtPageLowerLeft{%
+ \put(\LenToUnit{\paperwidth},\LenToUnit{0\paperheight}){#1}%
+ }}%
+
+
+\begin{document}
+\topskip0pt
+\vspace*{\fill}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=9cm]{pg1.png}
+\end{figure}
+
+\begin{center}
+\pgfornament[width = 9cm, anchor=center, ydelta=0pt]{88}
+\end{center}
+
+{\centering \huge Arlene Naomi Cecila Lane \par}
+{\centering \Large December 16, 1935 -- May 24, 2018 \par} 
+
+\vspace*{\fill}
+
+% Base ornaments in corners
+%\AddToShipoutPictureBG*{%
+%   \AtPageUpperLeft{\put(0,-21){\pgfornament[width=1.5cm]{61}}}
+%   \AtPageUpperRight{\put(-42,-21){\pgfornament[width=1.5cm,symmetry=v]{61}}}
+%   \AtPageLowerLeft{\put(0,21){\pgfornament[width=1.5cm,symmetry=h]{61}}}
+%   \AtPageLowerRight{\put(-42,21){\pgfornament[width=1.5cm,symmetry=c]{61}}}
+%}
+
+\AddToShipoutPictureBG*{%
+   \AtPageUpperLeft{\put(30,-51){\pgfornament[width=1.5cm]{61}}}
+   \AtPageUpperRight{\put(-72,-51){\pgfornament[width=1.5cm,symmetry=v]{61}}}
+   \AtPageLowerLeft{\put(30,51){\pgfornament[width=1.5cm,symmetry=h]{61}}}
+   \AtPageLowerRight{\put(-72,51){\pgfornament[width=1.5cm,symmetry=c]{61}}}
+}
+
+\newpage
+\topskip0pt
+\vspace*{\fill}
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[c]{0.475\textwidth}
+        \centering
+        \includegraphics[height=0.43\textheight]{pg2-1.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[c]{0.475\textwidth}  
+        \centering 
+        \includegraphics[height=0.43\textheight]{pg2-2.png}
+    \end{subfigure}
+    \vskip\baselineskip
+    \begin{subfigure}[c]{0.475\textwidth}   
+        \centering 
+        \includegraphics[height=0.43\textheight]{pg2-3.png}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[c]{0.475\textwidth}   
+        \centering 
+        \includegraphics[height=0.43\textheight]{pg2-4.png}
+    \end{subfigure}
+\end{figure}
+
+\AddToShipoutPictureBG*{%
+   \AtPageUpperLeft{\put(18,-72){\pgfornament[width=1.5cm]{41}}}
+   \AtPageUpperRight{\put(-61,-72){\pgfornament[width=1.5cm,symmetry=v]{41}}}
+   \AtPageLowerLeft{\put(18,60){\pgfornament[width=1.5cm,symmetry=h]{41}}}
+   \AtPageLowerRight{\put(-61,60){\pgfornament[width=1.5cm,symmetry=c]{41}}}
+}
+
+\vspace*{\fill}
+
+\newpage
+\topskip0pt
+
+\vspace*{\fill}
+
+\begin{center}
+\pgfornament[width = 3cm, anchor=center, ydelta=0pt]{72}
+\pgfornament[width = 3cm, anchor=center, ydelta=0pt]{75}
+\pgfornament[width = 3cm, anchor=center, ydelta=0pt]{73}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{tabular}{ l l }
+	Opening Remarks 				& Kathlene N. White -- Daughter \\ 
+    								& Joel A. Lane -- Son \\
+									& \\
+	Music Chorister 				& Valerie J. Lane -- Daughter \\
+	Pianist 						& By Invitation \\
+									& \\
+	Musical Interlude 				& ``My Way'' by Frank Sinatra \\
+	(Mom's All Time Favorite Song)  & \\
+									& \\
+	Invocation 						& Sean T. Lane -- Grandson \\
+									& \\
+	Poem Recitation 				& Heather K. White -- Granddaughter \\
+									& \\
+	Speakers 						& Christopher T. White -- Grandson \\
+									& Trevor A. Lane -- Grandson \\
+									& \\
+	Musical Interlude 				& ``Going Home'' performed by the \\
+									& Albeni Falls Pipers \\
+									& \\
+	Speaker 						& Valerie J. Lane -- Daughter \\
+									& \\
+	Eulogy 							& Kathlene N. White -- Daughter \\
+									& Joel A. Lane -- Son \\
+									& \\
+	Closing Hymn 					& ``God Be with You Till \\
+									& We Meet Again'' \\
+									& \\
+	Benediction 					& Kyle R. Lane -- Grandson \\
+	Recessional Music				& ``Amazing Grace'' performed by the \\
+									& Albeni Falls Pipers \\
+\end{tabular}
+
+\vspace{0.5cm}
+
+\begin{center}
+\pgfornament[width = 9cm, anchor=center, ydelta=0pt]{88}
+\end{center}
+
+\vspace*{\fill}
+
+\AddToShipoutPictureBG*{%
+	\AtTextLowerLeft{%
+		\raisebox{.5\textheight}{%
+			\hspace*{.5\textwidth}%
+			\makebox[0pt]{\includegraphics[width=1.1\textwidth, height=1.05\textheight, valign=c]{pg3-bg.png}}%
+		}%
+	}%
+}
+
+\vspace*{\fill}
+
+\clearpage
+\topskip0pt
+\vspace*{\fill}
+
+\poemtitle{To Those I Love and To Those Who Love Me}
+
+\settowidth{\versewidth}{I give you my love, for you can only guess}
+\begin{verse}[\versewidth]
+{\setstretch{1.6}
+When I am gone, release me, and let me go;\\
+I have so many things to see and do.\\
+You mustn't tie yourself to me with tears,\\
+Be happy we had so many years.\\
+I give you my love, for you can only guess \\
+How much you gave to me in happiness.\\
+I thank you for the love you have shown,\\
+But now it's time I travel alone.\\
+So grieve a while for me, if grieve you must,\\
+Then let your grief be comforted by trust.\\
+It's only for a while that we must part\\
+So bless the memories within your heart.\\
+I won't be far away for life goes on,\\
+So if you need me, call me, and I will be near.\\
+And if you listen with your heart, you'll hear\\
+All my love around you, soft and clear.\\
+And when you must come this way alone\\
+I'll greet you with a smile and ``Welcome Home.''\\
+}
+\end{verse}
+
+\AddToShipoutPictureBG*{%
+   \AtPageUpperLeft{\put(30,-51){\pgfornament[width=1.5cm]{61}}}
+   \AtPageUpperRight{\put(-72,-51){\pgfornament[width=1.5cm,symmetry=v]{61}}}
+   \AtPageLowerLeft{\put(30,51){\pgfornament[width=1.5cm,symmetry=h]{61}}}
+   \AtPageLowerRight{\put(-72,51){\pgfornament[width=1.5cm,symmetry=c]{61}}}
+}
+
+\vspace*{\fill}
+
+\end{document}
